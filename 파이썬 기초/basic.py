@@ -89,4 +89,33 @@
 
 
 
-# =============== 컬렉션 타입 - 리스트 ===============
+# # =============== 컬렉션 타입 - 리스트 ===============
+
+
+# # Quiz 1 : 다음 코드의 실행 결과는?
+# numbers = [1, 2, 3, 4, 5]
+# numbers[1:4] = [10, 20]
+# print(numbers)
+
+
+# # Quiz 2 : 다음 코드의 실행 결과는?
+# def modify_list(lst):
+#     lst.append(4)
+#     lst = [7, 8, 9]
+#     return lst
+
+# original = [1, 2, 3]
+# result = modify_list(original)
+# print(original)
+# print(result)
+
+
+# # Quiz 3 : 다음 코드를 실행했을 때의 오류는?
+# matrix = [[0] * 3] * 3
+# matrix[0][0] = 1
+# matrix[1][1] = 2
+# print(matrix)
+
+
+
+
